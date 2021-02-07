@@ -17,4 +17,4 @@ A list of JSON Asset mods that I created or managed.
 Misc stuff
 * [A Bathroom Tilesheet](https://github.com/Warilized/SDV-Mods/tree/main/%5BCP%5D%20A%20Bathroom%20Tilesheet)
 * Android Mods Compatibility (planned)
-* [StardewLocations' Location Name](https://github.com/Warilized/SDV-Mods/tree/main/Stardew%20Locations'%20Location%20Name/i18n) ([link to original mod](https://www.nexusmods.com/stardewvalley/mods/1929))
+* [StardewLocations' Location Name](https://github.com/Warilized/SDV-Mods/tree/f4cd67e2dac4d87001fece30450fe95144b9afb7/%5BMisc%5D%20StardewLocations'%20Location%20Name/i18n) ([link to original mod](https://www.nexusmods.com/stardewvalley/mods/1929))
