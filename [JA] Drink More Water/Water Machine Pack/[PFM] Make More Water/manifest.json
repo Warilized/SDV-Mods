@@ -1,0 +1,18 @@
+﻿{
+	"Name": "[PFM] DMW - Make More Water",
+	"Description": "Process Water to make another kind of water. Uses Producer Framework Mod.",
+	"Author": "Warilized",
+	"Version": "1.4",
+	"MinimumApiVersion": "3.5.0",
+	"UniqueID": "Warilized.MakeWater",
+	"UpdateKeys": [ "Nexus:4384" ],
+	"Dependencies": [
+		{
+			"UniqueID": "Warilized.plsRehydrateYourself",
+			"UniqueID": "Warilized.gottaMakeWater"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

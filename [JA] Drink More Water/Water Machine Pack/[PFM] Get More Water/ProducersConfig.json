@@ -1,0 +1,39 @@
+[
+	{
+		"ProducerName": "Kettle",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": true,
+		"LightSource": {
+			"TextureIndex": 4,
+			"Radius": 1,
+			"OffsetX": 0, 
+			"OffsetY": 0, 
+			"ColorType": "DefinedColor", 
+			"ColorRed": 200,
+			"ColorGreen": 75, 
+			"ColorBlue": 75, 
+			"ColorAlpha": 200,
+			"ColorFactor": 0.75,
+			"AlwaysOn": false, 
+		},
+	},
+	{
+		"ProducerName": "Rainwater Tank",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": true,
+		"NoInputStartMode": "DayUpdate",
+		"WorkingWeather": [ "Rainy", "Stormy" ],
+		"WorkingOutdoors": true,
+	},
+	{
+		"ProducerName": "Water Pump",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": true,
+		"NoInputStartMode": "Placement",
+		"WorkingOutdoors": true,
+		"ProducingAnimation": {
+			"RelativeFrameIndex": [ 2, 3 ],
+			"FrameInterval": 10
+		},
+	}
+]

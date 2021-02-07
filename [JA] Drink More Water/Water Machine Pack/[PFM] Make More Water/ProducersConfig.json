@@ -1,0 +1,35 @@
+[
+	{
+		"ProducerName": "Ionizer",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": true,
+		"DisableBouncingAnimationWhileWorking": true,
+		"ProducingAnimation": { 
+			"RelativeFrameIndex": [ 2, 3], 
+			"FrameInterval": 10,
+		},
+	},
+	{
+		"ProducerName": "Slime Liquidizer",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": true,
+		"DisableBouncingAnimationWhileWorking": true,
+		"LightSource": {
+			"TextureIndex": 4,
+			"Radius": 1,
+			"OffsetX": 0, 
+			"OffsetY": 0, 
+			"ColorType": "DefinedColor", 
+			"ColorRed": 100,
+			"ColorGreen": 100, 
+			"ColorBlue": 255, 
+			"ColorAlpha": 200,
+			"ColorFactor": 0.75,
+			"AlwaysOn": false, 
+		},
+		"ProducingAnimation": { 
+			"RelativeFrameIndex": [ 2, 3], 
+			"FrameInterval": 10,
+		}		
+	}
+]

@@ -1,0 +1,59 @@
+{
+  "Name": "Raw Water",
+  "Description": "A cup of Raw Water. Boil it first, to avoid stomach ache.",
+  "Category": "Crafting",
+  "Edibility": 5,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": {
+    "Farming": 0,
+    "Foraging": 0,
+    "Mining": 0,
+    "Fishing": 0,
+    "Luck": 0,
+	"MaxStamina": -1,
+	"Speed": -1,
+    "Duration": 100,
+  },
+  "Price": 0,
+  "CanPurchase": true,
+  "PurchaseFrom": "Pierre",
+  "PurchasePrice": 5,  
+  "IsColored": false,
+  
+  "Recipe": null,
+  
+  "GiftTastes":
+    {
+        "Like": ["Linus"],
+        "Neutral": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jodi", "Kent", "Leah", "Lewis", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy",  "Shane", "Willy", "Wizard"],
+		"Dislike": ["Jas", "Krobus", "Vincent"],
+    },
+  "NameLocalization":
+    {
+        "es": "", //Spanish
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish*/
+        "zh": "", //Chinese (Simplified)
+    },
+  "DescriptionLocalization":
+    {
+        "es": "", //Spanish
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish*/
+        "zh": "", //Chinese (Simplified)
+    }	
+}

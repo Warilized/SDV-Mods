@@ -1,0 +1,34 @@
+[
+	// Ionizer
+	{
+		"ProducerName": "Ionizer",
+		"InputIdentifier": "766",
+		"InputStack": 10,
+		"MinutesUntilReady": 90,
+		"OutputIdentifier":"Water",
+		"InputPriceBased": false,
+		"KeepInputQuality": false,
+		"OutputQuality": 0,
+		"OutputStack": 4,
+		"Sounds": ["Ship"],
+        "PlacingAnimation": null,
+        "PlacingAnimationColorName": "White",
+	},
+
+	// Slime Liquidizer
+	{
+		"ProducerName": "Slime Liquidizer",
+		"InputIdentifier": "Water",
+		"InputStack": 5
+		"MinutesUntilReady": 90,
+		"OutputIdentifier":"Ionized Water",
+		"InputPriceBased": false,
+		"KeepInputQuality": false,
+		"OutputQuality": 0,
+		"OutputStack": 2,
+		"Sounds": ["Ship"],
+        "PlacingAnimation": null,
+        "PlacingAnimationColorName": "White",
+	},
+
+	]

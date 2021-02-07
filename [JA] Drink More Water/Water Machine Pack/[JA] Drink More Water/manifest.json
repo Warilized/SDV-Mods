@@ -1,0 +1,13 @@
+{
+    "Name": "[JA] Drink more Water (DMW),
+    "Author": "Warilized",
+    "Description": "Adds drinkable H2O into the game. Please re-hydrate yourself. This is Normal Version",
+    "Version": "1.4",
+    "MinimumApiVersion": "2.11.2",
+    "UniqueID": "Warilized.plsRehydrateYourself",
+    "UpdateKeys": [ "Nexus:4384" ],   
+    "ContentPackFor": {
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+
+}

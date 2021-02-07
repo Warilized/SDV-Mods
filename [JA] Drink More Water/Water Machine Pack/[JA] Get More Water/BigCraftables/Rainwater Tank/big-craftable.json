@@ -1,0 +1,28 @@
+{
+  "name": "Rainwater Tank",
+  "Description": "Gather rainwater. Produces 10 cups of Raw Water while raining.",
+  "price": 500,
+  "provideslight": false,
+  "ReserveNextIndex": true,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 388,
+            "Count": 10,
+        },
+        {
+            "Object": 390,
+            "Count": 10,
+        },
+        {
+            "Object": 771,
+            "Count": 5,
+        },
+        ],
+        "CanPurchase": true,
+        "PurchaseFrom": "Robin",
+        "PurchasePrice": 5000,
+  }
+}

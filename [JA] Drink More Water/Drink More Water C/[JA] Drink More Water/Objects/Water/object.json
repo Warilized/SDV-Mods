@@ -1,0 +1,67 @@
+{
+  "Name": "Water",
+  "Description": "Clean H2O to rehydrate yourself.",
+  "Category": "Cooking",
+  "Edibility": 20,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": {
+    "Farming": 0,
+    "Foraging": 0,
+    "Mining": 0,
+    "Fishing": 0,
+    "Luck": 0,
+	"MaxStamina": 1,
+    "Duration": 100,
+  },
+  "Price": 0,
+  "CanPurchase": true,
+  "PurchaseFrom": "Gus",
+  "PurchasePrice": 10,  
+  "IsColored": false,
+
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Raw Water",
+        "Count": 1,
+      },
+	],
+    "IsDefault": true,
+  },
+  "GiftTastes":
+    {
+        "Love": ["Alex", "Linus"],
+        "Like": ["Elliott", "George", "Gus", "Harvey", "Kent", "Leah", "Penny", "Sandy"],
+        "Neutral": [ "Abigail", "Caroline", "Clint", "Demetrius", "Dwarf", "Emily", "Evelyn", "Jodi", "Lewis", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sam", "Shane", "Willy", "Wizard"],
+		"Dislike": ["Jas", "Krobus", "Vincent"],
+    },
+  "NameLocalization":
+    {
+        "es": "", //Spanish
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish*/
+        "zh": "", //Chinese (Simplified)
+    },
+  "DescriptionLocalization":
+    {
+        "es": "", //Spanish
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish*/
+        "zh": "", //Chinese (Simplified)
+    }	
+}

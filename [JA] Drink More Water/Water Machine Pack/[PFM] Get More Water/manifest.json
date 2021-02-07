@@ -1,0 +1,18 @@
+﻿{
+	"Name": "[PFM] DMW - Get More Water",
+	"Description": "Machines that help produces and processes water. Uses Producer Framework Mod.",
+	"Author": "Warilized, Converted by maerumaer2u",
+	"Version": "1.4",
+	"MinimumApiVersion": "3.5.0",
+	"UniqueID": "Warilized.GetWater",
+	"UpdateKeys": [ "Nexus:4384" ],
+	"Dependencies": [
+		{
+			"UniqueID": "Warilized.plsRehydrateYourself",
+			"UniqueID": "Warilized.gottaGetWater"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

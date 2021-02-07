@@ -1,0 +1,25 @@
+{
+  "name": "Ionizer",
+  "Description": "Ionize normal drinking water with a battery. Designed to contain big volume of water. Produces Ionized Water.",
+  "price": 700,
+  "provideslight": false,
+  "ReserveNextIndex": true,
+  "ReserveExtraIndexCount": 3,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 388,
+            "Count": 100,
+        },
+        {
+            "Object": 355,
+            "Count": 10,
+        },
+        ],
+        "CanPurchase": true,
+        "PurchaseFrom": "Robin",
+        "PurchasePrice": 7000,
+  }
+}

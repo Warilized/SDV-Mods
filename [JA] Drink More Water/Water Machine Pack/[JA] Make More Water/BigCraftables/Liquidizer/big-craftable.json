@@ -1,0 +1,29 @@
+{
+  "name": "Slime Liquidizer",
+  "Description": "Liquifies then purifies Slime's drops into a drinkable purified water. Produces 2 bottle of Purified Water for 5 Slimes",
+  "price": 700,
+  "provideslight": false,
+  "ReserveNextIndex": true,
+  "ReserveExtraIndexCount": 3,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 388,
+            "Count": 15,
+        },
+        {
+            "Object": 390,
+            "Count": 10,
+        },
+        {
+            "Object": 771,
+            "Count": 5,
+        },
+        ],
+        "CanPurchase": true,
+        "PurchaseFrom": "Robin",
+        "PurchasePrice": 750,
+  }
+}

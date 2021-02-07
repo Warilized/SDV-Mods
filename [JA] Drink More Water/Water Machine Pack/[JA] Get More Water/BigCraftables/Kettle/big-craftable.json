@@ -1,0 +1,24 @@
+{
+  "name": "Kettle",
+  "Description": "Boil 4 cups of Raw Water to 4 glass of drinkable water. Needs 1 Wood to operate.",
+  "price": 25,
+  "provideslight": false,
+  "ReserveNextIndex": true,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 388,
+            "Count": 10,
+        },
+        {
+            "Object": 390,
+            "Count": 5,
+        },
+        ],
+        "CanPurchase": true,
+        "PurchaseFrom": "Robin",
+        "PurchasePrice": 250,
+  }
+}

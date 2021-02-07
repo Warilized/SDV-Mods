@@ -1,0 +1,29 @@
+{
+  "name": "Water Pump",
+  "Description": "Pumps water from the mother Earth. Produces 10 cups of Raw Water per 4 hours. Only works outdoors.",
+  "price": 750,
+  "provideslight": false,
+  "ReserveNextIndex": true,
+  "ReserveExtraIndexCount": 3,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 388,
+            "Count": 15,
+        },
+        {
+            "Object": 390,
+            "Count": 10,
+        },
+        {
+            "Object": 771,
+            "Count": 5,
+        },
+        ],
+        "CanPurchase": true,
+        "PurchaseFrom": "Robin",
+        "PurchasePrice": 7500,
+  }
+}
