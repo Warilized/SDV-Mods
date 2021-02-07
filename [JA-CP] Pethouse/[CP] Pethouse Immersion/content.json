@@ -1,0 +1,116 @@
+{ 
+	"Format": "1.19",
+	"ConfigSchema": {
+		"Enable Mod": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable Seasonal Immersion and reskin.",
+		},
+		"Petbowl": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable Petbowl replacement.",
+		},
+		"Pethouse": {
+			"AllowValues": "Vanilla, Escaplays",
+			"Default": "Vanilla",
+			"Description": "Pethouse Style.",
+		},
+		"Starblue Valley Patch": {
+			"AllowValues": "Auto, Disable",
+			"Default": "Auto",
+			"Description": "Enable Starblue Valley Patch. Choosing Auto will automatically patch it if available. Disable if using reskin",
+		},
+	},
+	"DynamicTokens": [
+	{
+		"Name": "Style",
+		"Value": "{{Pethouse}}",
+		"When": {
+			"Starblue Valley Patch": "Auto",
+		}
+	},
+
+	///Recolor Tokens
+	{
+		"Name": "Style",
+		"Value": "Starblue",
+		"When": {
+			"HasMod": "Lita.StarblueValley",
+			"Starblue Valley Patch": "Auto",
+		}
+	},
+
+	////If no recolor found
+	{
+		"Name": "Style",
+		"Value": "{{Pethouse}}",
+		"When": {
+			"Starblue Valley Patch": "Disable",
+		}
+	},
+	],
+	"Changes": [
+	{
+		"LogName": "Pethouse - Loading Pethouse Roof Left",
+		"Action": "EditImage",
+        "Target": "{{spacechase0.Jsonassets/BigCraftableSpriteTilesheet:Pethouse Roof Left}}",
+        "FromFile": "assets/{{Style}}/{{Season}}_pethouse.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+        "ToArea": { "X": "{{spacechase0.Jsonassets/BigCraftableSpriteX:Pethouse Roof Left}}", "Y": "{{spacechase0.Jsonassets/BigCraftableSpriteY:Pethouse Roof Left}}", "Width": 16, "Height": 16 },
+        "When": {
+			"Enable Mod": "true"
+		}
+	},
+	{
+        "LogName": "Pethouse - Loading Pethouse Roof Right",
+		"Action": "EditImage",
+        "Target": "{{spacechase0.Jsonassets/BigCraftableSpriteTilesheet:Pethouse Roof Right}}",
+        "FromFile": "assets/{{Style}}/{{Season}}_pethouse.png",
+        "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+        "ToArea": { "X": "{{spacechase0.Jsonassets/BigCraftableSpriteX:Pethouse Roof Right}}", "Y": "{{spacechase0.Jsonassets/BigCraftableSpriteY:Pethouse Roof Right}}", "Width": 16, "Height": 16 },
+        "When": {
+			"Enable Mod": "true"
+		}
+	},
+	{
+        "LogName": "Pethouse - Loading Pethouse Wall Left",
+		"Action": "EditImage",
+        "Target": "{{spacechase0.Jsonassets/BigCraftableSpriteTilesheet:Pethouse Wall Left}}",
+        "FromFile": "assets/{{Style}}/{{Season}}_pethouse.png",
+        "FromArea": { "X": 0, "Y": 16, "Width": 16, "Height": 32 },
+        "ToArea": { "X": "{{spacechase0.Jsonassets/BigCraftableSpriteX:Pethouse Wall Left}}", "Y": "{{spacechase0.Jsonassets/BigCraftableSpriteY:Pethouse Wall Left}}", "Width": 16, "Height": 32 },
+        "When": {
+			"Enable Mod": "true"
+		}
+	},
+	{
+        "LogName": "Pethouse - Loading Pethouse Wall Right",
+		"Action": "EditImage",
+        "Target": "{{spacechase0.Jsonassets/BigCraftableSpriteTilesheet:Pethouse Wall Right}}",
+        "FromFile": "assets/{{Style}}/{{Season}}_pethouse.png",
+        "FromArea": { "X": 16, "Y": 16, "Width": 16, "Height": 32 },
+        "ToArea": { "X": "{{spacechase0.Jsonassets/BigCraftableSpriteX:Pethouse Wall Right}}", "Y": "{{spacechase0.Jsonassets/BigCraftableSpriteY:Pethouse Wall Right}}", "Width": 16, "Height": 32 },
+        "When": {
+			"Enable Mod": "true"
+		}
+	},
+	{
+        "LogName": "Pethouse - Loading Petbowl",
+		"Action": "EditImage",
+        "Target": "Maps/{{Season}}_outdoorsTileSheet",
+        "FromFile": "assets/{{Style}}/{{Season}}_bowl.png",
+        "ToArea": { "X": 208, "Y": 1232, "Width": 32, "Height": 16 },
+        "When": {
+			"Enable Mod": "true",
+			"Petbowl": "true"
+		}
+	},
+	],
+}
+
+
+
+
+
+

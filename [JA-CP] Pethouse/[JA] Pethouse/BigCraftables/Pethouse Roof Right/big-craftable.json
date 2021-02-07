@@ -1,0 +1,23 @@
+{
+  "name": "Pethouse Roof Right",
+  "Description": "Right roof part of the pethouse.",
+  "price": 25,
+  "provideslight": false,
+  "ReserveNextIndex": false,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 388,
+            "Count": 20,
+        },
+        ],
+        "CanPurchase": true,
+        "PurchaseFrom": "Robin",
+        "PurchasePrice": 200,
+  },
+  "CanPurchase": true,
+  "PurchaseFrom": "Robin",
+  "PurchasePrice": 500,
+}

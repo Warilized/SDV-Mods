@@ -1,0 +1,21 @@
+{ 
+	"Name": "[CP] Pethouse Immersion",
+	"Author": "Original: Taelende, Conversion: Warilized",
+	"Description": "Seasonal Immersion for Pethouse.",
+	"Version": "1.0.0",
+	"MinimumAPIVersion": "3.5.0",
+	"UniqueID": "TaelendeWarilized.PethouseImmersion",
+	"UpdateKeys": ["Nexus:7748"],
+    "Dependencies": [
+		{
+			"UniqueID": "TaelendeWarilized.Pethouse",
+		},
+		{
+			"UniqueID": "spacechase0.JsonAssets"
+		},
+	],
+	"ContentPackFor": 
+    {
+		"UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
