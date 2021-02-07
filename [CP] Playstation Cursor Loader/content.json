@@ -1,0 +1,39 @@
+{
+	"Format": "1.19",
+	
+	"ConfigSchema": {
+		"Load From": {
+		"Default": "Playstation",
+		"Description": "The name of the cursor pack folder you wanted to load from.",
+		},
+		
+		"File Name": {
+		"Default": "Cursors",
+		"Description": "The name of the cursor file. Change it if the cursor file had different name. Default: Cursors.",
+		},
+	},
+	"Changes": [
+		{
+		"LogName": "Loads cursor from .xnb file",
+		"Action": "EditImage",
+		"Target": "LooseSprites/Cursors",
+		"FromFile": "assets/{{Load From}}/{{File Name}}.xnb",
+		"FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 32 },
+		"ToArea": { "X": 0, "Y": 0, "Width": 128, "Height": 32 },
+		"When": {
+				"HasFile:assets/{{Load From}}/{{File Name}}.xnb": "true",
+			}
+		},
+		{
+		"LogName": "Loads cursor from .png file",
+		"Action": "EditImage",
+		"Target": "LooseSprites/Cursors",
+		"FromFile": "assets/{{Load From}}/{{File Name}}.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 32 },
+		"ToArea": { "X": 0, "Y": 0, "Width": 128, "Height": 32 },
+		"When": {
+				"HasFile:assets/{{Load From}}/{{File Name}}.png": "true",
+			}
+		},
+	]
+}

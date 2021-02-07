@@ -1,0 +1,12 @@
+{
+   "Name": "[CP] Vanilla Styled Electric Mill",
+   "Author": "Warilized",
+   "Version": "2.0.0",
+   "Description": "Replaces the Vanilla Mill to a Vanilla Styled Electric Mill.",
+   "UniqueID": "Warilized.electricMill",
+   "MinimumApiVersion": "3.5",
+   "UpdateKeys": ["Nexus:3726"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

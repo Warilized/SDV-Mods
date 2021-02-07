@@ -1,0 +1,49 @@
+{
+	"Format": "1.19",
+	"ConfigSchema": {
+        "Enable Mod": {
+            "AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enables the mod.",
+        },
+		"Style": {
+            "AllowValues": "Default, ALYSD - LD",
+			"Default": "Default",
+			"Description": "Recolor styles.",
+        }
+    },
+	"Changes": [
+		//XNB
+		{
+		"Action": "EditImage",
+		"Target": "Maps/{{season}}_outdoorsTileSheet",
+		"FromFile": "assets/{{Style}}/{{season}}_outdoorsTileSheet.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 },
+		"ToArea": { "X": 64, "Y": 496, "Width": 64, "Height": 16 },
+		"When": {
+				"Enable Mod": "true",
+			}
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Maps/{{season}}_outdoorsTileSheet",
+		"FromFile": "assets/{{Style}}/{{season}}_outdoorsTileSheet.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 64 },
+		"ToArea": { "X": 144, "Y": 512, "Width": 16, "Height": 64 },		
+		"When": {
+				"Enable Mod": "true",
+			}
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Maps/{{season}}_outdoorsTileSheet",
+		"FromFile": "assets/{{Style}}/{{season}}_outdoorsTileSheet.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 48 },
+		"ToArea": { "X": 160, "Y": 544, "Width": 16, "Height": 48 },		
+		"When": {
+				"Enable Mod": "true",
+			}
+		},
+
+	]
+}
