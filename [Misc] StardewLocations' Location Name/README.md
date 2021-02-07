@@ -1,4 +1,4 @@
-StardewLocations' Location name.
+# StardewLocations' Location name.
 
 I make this so the mod have references for location names. 
 Currently support: 
