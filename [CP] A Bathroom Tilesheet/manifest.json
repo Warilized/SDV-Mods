@@ -1,0 +1,11 @@
+{
+   "Name": "[CP] A Bathroom Tilesheet",
+   "Author": "Various",
+   "Version": "1.0",
+   "Description": "Turn Shoutern Room into a bathroom.",
+   "UniqueID": "Warilized.bathroomTilesheet",
+   "MinimumApiVersion": "3.5",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

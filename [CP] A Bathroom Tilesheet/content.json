@@ -1,0 +1,88 @@
+{
+    "Format": "1.19",
+
+	"ConfigSchema": {
+		"Enable Base tiles": {
+		"AllowValues": "true, false",
+		"Default": "true",
+		"Description": "Enables base tiles. Disable this if you use CP recolor but it didn't load. C: wildzooe",
+		},
+		"Enable Base Tiles Addons": {
+		"AllowValues": "true, false",
+		"Default": "true",
+		"Description": "Enables base tiles addons. Disable this if you use CP recolor but it didn't load.",
+		},
+		"Enable zcompactbathroom Tiles": {
+		"AllowValues": "true, false",
+		"Default": "true",
+		"Description": "Enables zcompactbathroom tiles. Disable this if you use CP recolor but it didn't load. C: Prismuth",
+		},
+		"Enable zcompactbathroom Tiles Addons": {
+		"AllowValues": "true, false",
+		"Default": "true",
+		"Description": "Enables zcompactbathroom tiles addons. Disable this if you use CP recolor but it didn't load.",
+		},
+		"Enable Bath House Tiles Addons": {
+		"AllowValues": "true, false",
+		"Default": "true",
+		"Description": "Enables Bath House tiles addons. Disable this if you use CP recolor but it didn't load. C: Minipantsu",
+		},
+	},	
+
+    "Changes": [
+	
+		////base tiles
+		{
+            "LogName": "Loads base tiles from wildzooey",
+			"Action": "Load",
+            "Target": "bath_tiles, maps/bath_tiles",
+            "FromFile": "assets/wildzooey's farmhouse_tiles base.png",
+        },
+		////base tiles addons
+		{
+            "LogName": "Adds base tiles addons",
+			"Action": "EditImage",
+            "Target": "bath_tiles, maps/bath_tiles",
+			"PatchMode": "Replace",
+            "FromFile": "assets/wildzooey's farmhouse_tiles addons.png",
+			"ToArea": { "X": 0, "Y": 240, "Width": 192, "Height": 80 },
+        },
+		////Prismuth's Compact Bathroom tiles
+		{
+            "LogName": "Adds Prismuth's Compact Bathroom tiles",
+			"Action": "EditImage",
+            "Target": "bath_tiles, maps/bath_tiles",
+			"PatchMode": "Replace",
+            "FromFile": "assets/Prismuth's zcompactbathroom_tiles.png",
+			"ToArea": { "X": 0, "Y": 0, "Width": 128, "Height": 112 },
+        },
+		////Prismuth's Compact Bathroom tiles addons
+		{
+            "LogName": "Adds Prismuth's Compact Bathroom tiles addons",
+			"Action": "EditImage",
+            "Target": "bath_tiles, maps/bath_tiles",
+			"PatchMode": "Replace",
+            "FromFile": "assets/Prismuth's zcompactbathroom_tiles addons.png",
+			"ToArea": { "X": 128, "Y": 0, "Width": 64, "Height": 112 },
+        },
+		////MiniPantsu's Bathhouse tiles
+		{
+            "LogName": "Adds MiniPantsu's Bathhouse Tiles",
+			"Action": "EditImage",
+            "Target": "bath_tiles, maps/bath_tiles",
+			"PatchMode": "Replace",
+            "FromFile": "assets/MiniPantsu's Bathhouse_tiles.png",
+			"ToArea": { "X": 0, "Y": 176, "Width": 192, "Height": 64 },
+        },
+		////Chair Tiles Edit
+		{
+            "LogName": "Adds Chair Properties to Tiles",
+			"Action": "EditData",
+            "Target": "Data/ChairTiles",
+			"Entries": {
+				"bath_tiles/5/6": "1/1/down/chair/-1/-1/false",
+				"bath_tiles/2/21": "1/1/right/chair/-1/-1/false",
+			},
+        },
+    ]
+}

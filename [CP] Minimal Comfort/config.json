@@ -1,0 +1,13 @@
+{
+  "Enable Mod": "true",
+  "Unupgraded House Enable": "true",
+  "- Kitchen": "Stove",
+  "- - No Stove Upgradeable": "true",
+  "- - Kitchen Area Upgrade": "X days have passed",
+  "- - X": "2",
+  "First Upgrade Enable": "true",
+  "- Bathroom Style": "Bathtub",
+  "- Marriage Bathroom Style": "Bathtub",
+  "Second Upgrade Enable": "true",
+  "- Room Style": "SW Room with Bathtub"
+}

@@ -1,0 +1,183 @@
+{
+    "Format": "1.19",
+	"ConfigSchema": {
+		
+		//Config
+		
+		////Enable Mod
+		"Enable Mod": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enables the mod.",
+		},
+		
+		////Unupgraded House Enable
+		"Unupgraded House Enable": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enables Bathroom on unupgraded house.",
+		},
+		
+		////Unupgraded House Style
+		"- Kitchen": {
+			"AllowValues": "Stove, No Stove, No Kitchen Area",
+			"Default": "Stove",
+			"Description": "Enable kitchen area on unupgraded house.",
+		},
+		"- - No Stove Upgradeable": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable kitchen upgrade when choosing 'No Stove' option.",
+		},
+		"- - Kitchen Area Upgrade": {
+			"AllowValues": "X days have passed, Farming level X",
+			"Default": "X days have passed",
+			"Description": "Upgrade house condition.",
+		},
+		"- - X": {
+			"AllowValues": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10",
+			"Default": "2",
+			"Description": "Numeral value of X condition.",
+		},
+
+		////First Upgrade Enable
+		"First Upgrade Enable": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enables Bathroom on first upgrade house.",
+		},
+		
+		////First Upgrade Bathroom Style
+		"- Bathroom Style": {
+			"AllowValues": "Bathtub",
+			"Default": "Bathtub",
+			"Description": "First upgraded house bathroom style.",
+		},
+		
+		////First Upgrade Marriage Bathroom Style
+		"- Marriage Bathroom Style": {
+			"AllowValues": "Bathtub",
+			"Default": "Bathtub",
+			"Description": "First upgraded house marriage bathroom style.",
+		},
+
+		////Second Upgrade Enable
+		"Second Upgrade Enable": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enables Bathroom on second upgrade house.",
+		},
+		
+		////Second Upgrade Bathroom Style
+		"- Room Style": {
+			"AllowValues": "Minimalistic, Jacuzzi, Bigger with Bathtub, SW Room with Pool, SW Room with Bathtub",
+			"Default": "Minimalistic",
+			"Description": "Second upgraded house/cabin bathroom style. Replaces Southern Room. SW Room styles is recommended.",
+		},
+	},
+	"DynamicTokens": [
+	{
+		"Name": "Kitchen Upgrade",
+		"Value": "false",
+	},
+	{
+		////X days have passed
+		"Name": "Kitchen Upgrade",
+		"Value": "true",
+		"When": {
+			"Query: {{DaysPlayed}} >={{- - X}} AND '{{- - Kitchen Area Upgrade}}' = 'X days have passed'": true,
+			"- - No Stove Upgradeable": "true",
+		}
+	},
+	{
+		////Farming level X
+		"Name": "Kitchen Upgrade",
+		"Value": "true",
+		"When": {
+			"Query: {{SkillLevel:Farming}} >= {{- - X}} AND '{{- - Kitchen Area Upgrade}}' = 'Farming level X'": true,
+			"- - No Stove Upgradeable": "true",
+		}
+	},
+	{
+		"Name": "Kitchen Upgrade",
+		"Value": "false",
+		"When": {
+			"- - No Stove Upgradeable": "false",
+		}
+	},
+	
+	{
+		////Kitchen
+		"Name": "Kitchen",
+		"Value": "{{- Kitchen}}",
+		"When": {
+			"Query: '{{- Kitchen}}' <> 'No Stove'": true,
+		}
+	},
+	{
+		"Name": "Kitchen",
+		"Value": "No Stove",
+		"When": {
+			"Kitchen Upgrade": "false",
+			"- Kitchen": "No Stove",
+		}
+	},
+	{
+		"Name": "Kitchen",
+		"Value": "Stove",
+		"When": {
+			"Kitchen Upgrade": "true",
+			"- Kitchen": "No Stove",
+		}
+	},
+	],
+    "Changes": [
+	
+		//Farmhouse
+		////Adds Bathroom to unupgraded house
+		{
+            "LogName": "Loads Bathroom for Unupgraded House",
+			"Action": "Load",
+            "Target": "Maps/FarmHouse",
+            "FromFile": "assets/FarmHouse/FarmHouse_unupgraded_{{Kitchen}}.tbin",
+			"When": {
+				"Enable Mod": true,
+				"Unupgraded House Enable": true,
+			}
+        },
+		
+		////Adds Bathroom to 1st house upgrade
+		{
+            "LogName": "Loads Bathroom for First House Upgrade",
+			"Action": "Load",
+            "Target": "Maps/FarmHouse1",
+            "FromFile": "assets/FarmHouse/FarmHouse1_{{- Bathroom Style}}.tbin",
+			"When": {
+				"Enable Mod": true,
+				"First Upgrade Enable": true,
+			}
+        },
+		{
+            "LogName": "Loads Bathroom for First House Upgrade Marriage",
+			"Action": "Load",
+            "Target": "Maps/FarmHouse1_marriage",
+            "FromFile": "assets/FarmHouse/FarmHouse1_marriage_{{- Marriage Bathroom Style}}.tbin",
+			"When": {
+				"Enable Mod": true,
+				"First Upgrade Enable": true,
+			}
+        },
+
+		////Adds Bathroom to 2nd house upgrade, Southern Room Replacement
+		{
+            "LogName": "Loads Bathroom for Second House Upgrade replacing Southern Room",
+			"Action": "Load",
+            "Target": "Maps/FarmHouse_SouthernRoom_Add",
+            "FromFile": "assets/FarmHouse/FarmHouse_SouthernRoom_Add_{{- Room Style}}.tbin",
+			"When": {
+				"Enable Mod": true,
+				"Second Upgrade Enable": true,
+			}
+        },
+    ]
+}
