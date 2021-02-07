@@ -137,7 +137,7 @@
 		////Adds Bathroom to unupgraded house
 		{
             "LogName": "Loads Bathroom for Unupgraded House",
-			"Action": "Load",
+            "Action": "Load",
             "Target": "Maps/FarmHouse",
             "FromFile": "assets/FarmHouse/FarmHouse_unupgraded_{{Kitchen}}.tbin",
 			"When": {
@@ -149,7 +149,7 @@
 		////Adds Bathroom to 1st house upgrade
 		{
             "LogName": "Loads Bathroom for First House Upgrade",
-			"Action": "Load",
+            "Action": "Load",
             "Target": "Maps/FarmHouse1",
             "FromFile": "assets/FarmHouse/FarmHouse1_{{- Bathroom Style}}.tbin",
 			"When": {
@@ -159,7 +159,7 @@
         },
 		{
             "LogName": "Loads Bathroom for First House Upgrade Marriage",
-			"Action": "Load",
+            "Action": "Load",
             "Target": "Maps/FarmHouse1_marriage",
             "FromFile": "assets/FarmHouse/FarmHouse1_marriage_{{- Marriage Bathroom Style}}.tbin",
 			"When": {
@@ -171,7 +171,7 @@
 		////Adds Bathroom to 2nd house upgrade, Southern Room Replacement
 		{
             "LogName": "Loads Bathroom for Second House Upgrade replacing Southern Room",
-			"Action": "Load",
+            "Action": "Load",
             "Target": "Maps/FarmHouse_SouthernRoom_Add",
             "FromFile": "assets/FarmHouse/FarmHouse_SouthernRoom_Add_{{- Room Style}}.tbin",
 			"When": {
