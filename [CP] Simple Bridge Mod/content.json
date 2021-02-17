@@ -1,17 +1,22 @@
 {
 	"Format": "1.19",
+
+	//Config 
 	"ConfigSchema": {
-        "Enable Mod": {
-            "AllowValues": "true, false",
+		////Enable Mod
+		"Enable Mod": {
+			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Enables the mod.",
-        },
+        	},
+		
+		////Style of the bridges
 		"Style": {
-            "AllowValues": "Default, ALYSD - LD",
+			"AllowValues": "Default, ALYSD - LD",
 			"Default": "Default",
 			"Description": "Recolor styles.",
-        }
-    },
+        	}
+	},
 	"Changes": [
 		//XNB
 		{
@@ -21,7 +26,7 @@
 		"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 },
 		"ToArea": { "X": 64, "Y": 496, "Width": 64, "Height": 16 },
 		"When": {
-				"Enable Mod": "true",
+			"Enable Mod": "true",
 			}
 		},
 		{
@@ -31,7 +36,7 @@
 		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 64 },
 		"ToArea": { "X": 144, "Y": 512, "Width": 16, "Height": 64 },		
 		"When": {
-				"Enable Mod": "true",
+			"Enable Mod": "true",
 			}
 		},
 		{
@@ -41,9 +46,8 @@
 		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 48 },
 		"ToArea": { "X": 160, "Y": 544, "Width": 16, "Height": 48 },		
 		"When": {
-				"Enable Mod": "true",
+			"Enable Mod": "true",
 			}
-		},
-
+		}
 	]
 }
