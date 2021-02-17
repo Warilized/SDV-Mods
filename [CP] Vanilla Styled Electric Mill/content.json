@@ -1,17 +1,19 @@
 {
-	"Format": "1.19",
+	"Format": "1.20",
+	
+	//Config
 	"ConfigSchema": {
-        "Enable Mod": {
-            "AllowValues": "true, false",
+		"Enable Mod": {
+			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Enables the mod.",
-        },
+		},
 		"Style": {
-            "AllowValues": "Type 1, Type 2, Type 3",
+			"AllowValues": "Type 1, Type 2, Type 3",
 			"Default": "Type 1",
 			"Description": "Mill styles.",
-        }
-    },
+		}
+	},
 	"Changes": [
 		{
 		"LogName": "Load Mill",
