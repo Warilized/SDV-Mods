@@ -21,6 +21,7 @@
 			"Default": "Default",
 			"Description": "Pethouse Style.",
 		},
+		////Recolor Patch
 		"Starblue Valley Patch": {
 			"AllowValues": "Auto, Disable",
 			"Default": "Auto",
