@@ -1,7 +1,7 @@
 {
    "Name": "[CP] Simple Bridge Mod",
    "Author": "Original: toastshark, Conversion: Warilized",
-   "Version": "2.1.0",
+   "Version": "2.1.1",
    "Description": "More Coordinated Bridges! No more frail looking plank.",
    "UniqueID": "toast.bridge",
    "MinimumApiVersion": "3.5",
