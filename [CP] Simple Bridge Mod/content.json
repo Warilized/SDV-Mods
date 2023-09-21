@@ -22,7 +22,7 @@
 		{
 		"Action": "EditImage",
 		"Target": "Maps/{{season}}_outdoorsTileSheet",
-		"FromFile": "assets/{{Style}}/{{season}}_outdoorsTileSheet.png",
+		"FromFile": "assets/{{Style}}/HorizontalBridge_{{season}}.png",
 		"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 },
 		"ToArea": { "X": 64, "Y": 496, "Width": 64, "Height": 16 },
 		"When": {
@@ -32,7 +32,7 @@
 		{
 		"Action": "EditImage",
 		"Target": "Maps/{{season}}_outdoorsTileSheet",
-		"FromFile": "assets/{{Style}}/{{season}}_outdoorsTileSheet.png",
+		"FromFile": "assets/{{Style}}/VerticalBridge1_{{season}}.png",
 		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 64 },
 		"ToArea": { "X": 144, "Y": 512, "Width": 16, "Height": 64 },		
 		"When": {
@@ -42,7 +42,7 @@
 		{
 		"Action": "EditImage",
 		"Target": "Maps/{{season}}_outdoorsTileSheet",
-		"FromFile": "assets/{{Style}}/{{season}}_outdoorsTileSheet.png",
+		"FromFile": "assets/{{Style}}/VerticalBridge2_{{season}}.png",
 		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 48 },
 		"ToArea": { "X": 160, "Y": 544, "Width": 16, "Height": 48 },		
 		"When": {
