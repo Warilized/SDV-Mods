@@ -1,67 +1,135 @@
 {
+
   "Name": "Raw Water",
-  "Description": "A cup of Raw Water. Boil it first, to avoid stomach ache.",
+
+  "Description": "A cup of Raw Water. Boil it first to kill any bacteria present.",
+
   "Category": "Crafting",
-  "Edibility": 5,
+
+  "Edibility": 1,
+
   "EdibleIsDrink": true,
+
   "EdibleBuffs": {
+
     "Farming": 0,
+
     "Foraging": 0,
+
     "Mining": 0,
+
     "Fishing": 0,
+
     "Luck": 0,
-	"MaxStamina": -1,
-	"Speed": -1,
+
+  	"MaxStamina": 0,
+
+  	"Speed": -1,
+
     "Duration": 100,
+
   },
-  "Price": 3,
-  "CanPurchase": true,
-  "PurchaseFrom": "Pierre",
-  "PurchasePrice": 5,  
+
+  "Price": 1,
+
+  "CanPurchase": false,
+
+  //"PurchaseFrom": "Pierre",
+
+  //"PurchasePrice": 2,  
+
   "IsColored": false,
+
   
+
   "Recipe": {
+
     "ResultCount": 1,
+
     "Ingredients": [
+
       {
+
         "Object": 771,
-        "Count": 3,
+
+        "Count": 10,
+
       },
+
 	],  
+
   "IsDefault": true,
+
   },
+
   "GiftTastes":
+
     {
-        "Like": ["Linus"],
-        "Neutral": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jodi", "Kent", "Leah", "Lewis", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy",  "Shane", "Willy", "Wizard"],
-		"Dislike": ["Jas", "Krobus", "Vincent"],
+
+        "Love": [],
+
+        "Like": ["Linus", "Demetrius", "Elliott", "Sandy"],
+
+        "Neutral": ["Alex", "Abigail", "Caroline", "Clint", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Shane", "Vincent", "Willy", "Wizard"],
+
+		"Dislike": ["Krobus"],
+
     },
+
   "NameLocalization":
+
     {
-        "es": "", //Spanish
+
+        /*"es": "", //Spansih
+
         "ko": "", //Korean
+
         "de": "", //German
+
         "fr": "", //French
+
         "hu": "", //Hungarian
+
         "it": "", //Italian
-        "ja": "", //Japanese
+
+        "ja": "原水", //Japanese
+
         "pt": "", //Portuguese
+
         "ru": "", //Russian
+
         "tr": "", //Turkish*/
-        "zh": "", //Chinese (Simplified)
+
+        "zh": "原水", //Chinese (Simplified)
+
     },
+
   "DescriptionLocalization":
+
     {
-        "es": "", //Spanish
+
+        /*"es": "", //Spanish
+
         "ko": "", //Korean
+
         "de": "", //German
+
         "fr": "", //French
+
         "hu": "", //Hungarian
+
         "it": "", //Italian
-        "ja": "", //Japanese
+
+        "ja": "原水のカップ。 最初にそれを沸騰させてください。そうでない場合は、おそらくお腹が痛くなるでしょう。", //Japanese
+
         "pt": "", //Portuguese
+
         "ru": "", //Russian
+
         "tr": "", //Turkish*/
-        "zh": "", //Chinese (Simplified)
+
+        "zh": "一杯生水。先把它煮开，否则你可能会胃痛。", //Chinese (Simplified)
+
     }	
-}
+
+    }
