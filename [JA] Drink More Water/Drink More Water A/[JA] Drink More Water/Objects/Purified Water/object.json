@@ -1,6 +1,6 @@
 {
 	"Name": "Purified Water",
-	"Description": "Purified water made using the latest filtering technology to remove impurities from slime liquids. It's not that healthy because benificial mineral may be taken out in the process.",
+	"Description": "Purified water made using the latest filtering technology to remove any impurities from slime liquids.",
 	"Category": "Crafting",
 	"Edibility": 50,
 	"EdibleIsDrink": true,
