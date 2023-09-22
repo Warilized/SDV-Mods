@@ -1,44 +1,46 @@
 {
-  "Name": "Ionized Water",
-  "Description": "Ionized natural water. Made using the latest electrolysis technology. Drinking this will make you more healthy, or so it says on the packaging.",
-  "Category": "Cooking",
-  "Edibility": 15,
-  "EdibleIsDrink": true,
-  "EdibleBuffs": {
-    "Farming": 0,
-    "Foraging": 0,
-    "Mining": 0,
-    "Fishing": 0,
-    "Luck": 0,
-	"MaxStamina": 1,
-    "Duration": 120,
-  },
-  "Price": 110,
-  "CanPurchase": true,
-  "PurchaseFrom": "Pierre",
-  "PurchasePrice": 150,  
-  "IsColored": false,
+	"Name": "Ionized Water",
+	"Description": "Ionized natural water. Made using the latest electrolysis technology. Drinking this will make you more healthy, or so it says on the packaging.",
+	"Category": "Cooking",
+	"Edibility": 15,
+	"EdibleIsDrink": true,
+	"EdibleBuffs": {
+		"Farming": 0,
+		"Foraging": 0,
+		"Mining": 0,
+		"Fishing": 0,
+		"Luck": 0,
+		"MaxStamina": 1,
+		"Speed": 1,
+		"Duration": 120,
+	},
 
-  "Recipe": {
-    "ResultCount": 5,
-    "Ingredients": [
-      {
-        "Object": "Water",
-        "Count": 10,
-      },
-      {
-        "Object": 787,
-        "Count": 1,
-      },
-	],
-    "IsDefault": false,
-  },
-  "GiftTastes":
-    {
-        "Love": ["Alex", "Abigail", "Linus"],
-        "Like": [ "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Marnie", "Maru", "Pierre", "Robin", "Sam", "Sandy", "Vincent"],
-        "Neutral": ["Dwarf", "Pam", "Penny", "Shane", "Willy", "Wizard"],
+	//Item Details
+	"Price": 110,
+	"CanPurchase": true,
+	"PurchaseFrom": "Pierre",
+	"PurchasePrice": 150,  
+	"IsColored": false,
+	
+	"Recipe": {
+		"ResultCount": 5,
+		"Ingredients": [
+			{
+				"Object": "Water",
+				"Count": 10,
+			},
+			{
+				"Object": 787,
+				"Count": 1,
+			},
+		],
+		"IsDefault": false,
+	},
+	"GiftTastes":
+	{
+		"Love": ["Alex", "Abigail", "Linus"],
+		"Like": [ "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Marnie", "Maru", "Pierre", "Robin", "Sam", "Sandy", "Vincent"],
+		"Neutral": ["Dwarf", "Pam", "Penny", "Shane", "Willy", "Wizard"],
 		"Dislike": ["Krobus"],
-    }
-  
+	}
 }
