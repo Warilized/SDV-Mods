@@ -16,7 +16,7 @@
 	},
 
 	//Item Details
-	"Price": 110,
+	"Price": 120,
 	"CanPurchase": true,
 	"PurchaseFrom": "Pierre",
 	"PurchasePrice": 150,  
