@@ -1,8 +1,8 @@
 {
   "Name": "Ionized Water",
-  "Description": "Ionized natural water. Made using latest electrolysis technolgy. Drinking this will make you more healthy, or so it says on the packaging.",
+  "Description": "Ionized natural water. Made using the latest electrolysis technology. Drinking this will make you more healthy, or so it says on the packaging.",
   "Category": "Cooking",
-  "Edibility": 65,
+  "Edibility": 15,
   "EdibleIsDrink": true,
   "EdibleBuffs": {
     "Farming": 0,
@@ -10,51 +10,35 @@
     "Mining": 0,
     "Fishing": 0,
     "Luck": 0,
-	"MaxStamina": 4,
-	"Speed": 1,
+	"MaxStamina": 1,
     "Duration": 120,
   },
-  "Price": 70,
+  "Price": 110,
   "CanPurchase": true,
   "PurchaseFrom": "Pierre",
-  "PurchasePrice": 200,  
+  "PurchasePrice": 150,  
   "IsColored": false,
 
-  "Recipe": null,
-  
+  "Recipe": {
+    "ResultCount": 5,
+    "Ingredients": [
+      {
+        "Object": "Water",
+        "Count": 10,
+      },
+      {
+        "Object": 787,
+        "Count": 1,
+      },
+	],
+    "IsDefault": false,
+  },
   "GiftTastes":
     {
-        "Love": ["Alex", "Linus"],
-        "Like": ["Elliott", "George", "Gus", "Harvey", "Kent", "Leah", "Penny", "Sandy"],
-        "Neutral": [ "Abigail", "Caroline", "Clint", "Demetrius", "Dwarf", "Emily", "Evelyn", "Jodi", "Lewis", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sam", "Shane", "Willy", "Wizard"],
-		"Dislike": ["Jas", "Krobus", "Vincent"],
-    },
-  "NameLocalization":
-    {
-        "es": "", //Spanish
-        "ko": "", //Korean
-        "de": "", //German
-        "fr": "", //French
-        "hu": "", //Hungarian
-        "it": "", //Italian
-        "ja": "", //Japanese
-        "pt": "", //Portuguese
-        "ru": "", //Russian
-        "tr": "", //Turkish*/
-        "zh": "", //Chinese (Simplified)
-    },
-  "DescriptionLocalization":
-    {
-        "es": "", //Spanish
-        "ko": "", //Korean
-        "de": "", //German
-        "fr": "", //French
-        "hu": "", //Hungarian
-        "it": "", //Italian
-        "ja": "", //Japanese
-        "pt": "", //Portuguese
-        "ru": "", //Russian
-        "tr": "", //Turkish*/
-        "zh": "", //Chinese (Simplified)
-    }	
+        "Love": ["Alex", "Abigail", "Linus"],
+        "Like": [ "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Marnie", "Maru", "Pierre", "Robin", "Sam", "Sandy", "Vincent"],
+        "Neutral": ["Dwarf", "Pam", "Penny", "Shane", "Willy", "Wizard"],
+		"Dislike": ["Krobus"],
+    }
+  
 }
