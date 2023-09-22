@@ -22,20 +22,8 @@
 	"PurchasePrice": 150,  
 	"IsColored": false,
 	
-	"Recipe": {
-		"ResultCount": 5,
-		"Ingredients": [
-			{
-				"Object": "Water",
-				"Count": 10,
-			},
-			{
-				"Object": 787,
-				"Count": 1,
-			},
-		],
-		"IsDefault": false,
-	},
+	"Recipe": null,
+	
 	"GiftTastes":
 	{
 		"Love": ["Alex", "Abigail", "Linus"],
