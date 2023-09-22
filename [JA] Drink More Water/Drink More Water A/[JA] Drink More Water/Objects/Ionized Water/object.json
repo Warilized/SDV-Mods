@@ -30,5 +30,33 @@
 		"Like": [ "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Marnie", "Maru", "Pierre", "Robin", "Sam", "Sandy", "Vincent"],
 		"Neutral": ["Dwarf", "Pam", "Penny", "Shane", "Willy", "Wizard"],
 		"Dislike": ["Krobus"],
+	},
+	"NameLocalization":
+	{
+		"es": "", //Spanish
+		"ko": "", //Korean
+		"de": "", //German
+		"fr": "", //French
+		"hu": "", //Hungarian
+		"it": "", //Italian
+		"ja": "", //Japanese
+		"pt": "", //Portuguese
+		"ru": "", //Russian
+		"tr": "", //Turkish*/
+		"zh": "", //Chinese (Simplified)
+	},
+	"DescriptionLocalization":
+	{
+		"es": "", //Spanish
+		"ko": "", //Korean
+		"de": "", //German
+		"fr": "", //French
+		"hu": "", //Hungarian
+		"it": "", //Italian
+		"ja": "", //Japanese
+		"pt": "", //Portuguese
+		"ru": "", //Russian
+		"tr": "", //Turkish*/
+		"zh": "", //Chinese (Simplified)
 	}
 }
