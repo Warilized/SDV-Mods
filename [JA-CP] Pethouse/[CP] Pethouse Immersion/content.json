@@ -55,6 +55,21 @@
 			"Starblue Valley Patch": "Disable",
 			}
 		},
+		////Has Petbowl Mods Installed
+		{
+		"Name": "Has Petbowl Mods",
+		"Value": "False",
+		"When": {
+			"HasMod": "aedenthorn.MoveablePetBowl",
+			}
+		},
+		{
+		"Name": "Has Petbowl Mods",
+		"Value": "true",
+		"When": {
+			"HasMod": "aedenthorn.MoveablePetBowl",
+			}
+		},
 	],
 	"Changes": [
 		{
@@ -126,7 +141,7 @@
 		"When": {
 			"Enable Mod": "true",
 			"Petbowl": "true",
-			"HasMod:aedenthorn.MoveablePetBowl": "false",
+			"Has Petbowl Mods": "false",
 			}
 		}
 	]
