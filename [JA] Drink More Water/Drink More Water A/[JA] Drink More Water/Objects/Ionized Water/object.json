@@ -16,13 +16,14 @@
 	},
 
 	//Item Details
-	"Price": 120,
+	"Price": 40,
 	"CanPurchase": true,
 	"PurchaseFrom": "Pierre",
-	"PurchasePrice": 150,  
+	"PurchasePrice": 60,  
 	"IsColored": false,
 	
 	"Recipe": null,
+	////Made with 3 bottle of Water + Coal
 	
 	"GiftTastes":
 	{
