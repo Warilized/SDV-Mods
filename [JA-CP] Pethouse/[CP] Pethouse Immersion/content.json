@@ -60,10 +60,14 @@
 		{
 		"LogName": "Pethouse - Loading Pet House Roof Left",
 		"Action": "EditImage",
-		"Target": "{{spacechase0.Jsonassets/BigCraftableSpriteTilesheet:Pet House Roof Left}}",
+		"Target": "{{spacechase0.Jsonassets/BigCraftableSpriteTilesheet: Pethouse Roof Left}}",
 		"FromFile": "assets/{{Style}}/{{Season}}_pethouse.png",
 		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
-		"ToArea": { "X": "{{spacechase0.Jsonassets/BigCraftableSpriteX:Pet House Roof Left}}", "Y": "{{spacechase0.Jsonassets/BigCraftableSpriteY:Pet House Roof Left}}", "Width": 16, "Height": 16 },
+		"ToArea": { 
+			"X": "{{spacechase0.Jsonassets/BigCraftableSpriteX: Pethouse Roof Left}}", 
+			"Y": "{{spacechase0.Jsonassets/BigCraftableSpriteY: Pethouse Roof Left}}", 
+			"Width": 16, 
+			"Height": 16 },
 		"When": {
 			"Enable Mod": "true"
 			}
@@ -71,10 +75,14 @@
 		{
 		"LogName": "Pethouse - Loading Pet House Roof Right",
 		"Action": "EditImage",
-		"Target": "{{spacechase0.Jsonassets/BigCraftableSpriteTilesheet:Pet House Roof Right}}",
+		"Target": "{{spacechase0.Jsonassets/BigCraftableSpriteTilesheet: Pethouse Roof Right}}",
 		"FromFile": "assets/{{Style}}/{{Season}}_pethouse.png",
 		"FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
-		"ToArea": { "X": "{{spacechase0.Jsonassets/BigCraftableSpriteX:Pet House Roof Right}}", "Y": "{{spacechase0.Jsonassets/BigCraftableSpriteY:Pet House Roof Right}}", "Width": 16, "Height": 16 },
+		"ToArea": { 
+			"X": "{{spacechase0.Jsonassets/BigCraftableSpriteX: Pethouse Roof Right}}", 
+			"Y": "{{spacechase0.Jsonassets/BigCraftableSpriteY: Pethouse Roof Right}}", 
+			"Width": 16, 
+			"Height": 16 },
 		"When": {
 			"Enable Mod": "true"
 			}
@@ -82,10 +90,14 @@
 		{
 		"LogName": "Pethouse - Loading Pet House Wall Left",
 		"Action": "EditImage",
-		"Target": "{{spacechase0.Jsonassets/BigCraftableSpriteTilesheet:Pet House Wall Left}}",
+		"Target": "{{spacechase0.Jsonassets/BigCraftableSpriteTilesheet: Pethouse Wall Left}}",
 		"FromFile": "assets/{{Style}}/{{Season}}_pethouse.png",
 		"FromArea": { "X": 0, "Y": 16, "Width": 16, "Height": 32 },
-		"ToArea": { "X": "{{spacechase0.Jsonassets/BigCraftableSpriteX:Pet House Wall Left}}", "Y": "{{spacechase0.Jsonassets/BigCraftableSpriteY:Pet House Wall Left}}", "Width": 16, "Height": 32 },
+		"ToArea": { 
+			"X": "{{spacechase0.Jsonassets/BigCraftableSpriteX: Pethouse Wall Left}}", 
+			"Y": "{{spacechase0.Jsonassets/BigCraftableSpriteY: Pethouse Wall Left}}", 
+			"Width": 16, 
+			"Height": 32 },
 		"When": {
 			"Enable Mod": "true"
 			}
@@ -93,10 +105,14 @@
 		{
 		"LogName": "Pethouse - Loading Pet House Wall Right",
 		"Action": "EditImage",
-		"Target": "{{spacechase0.Jsonassets/BigCraftableSpriteTilesheet:Pet House Wall Right}}",
+		"Target": "{{spacechase0.Jsonassets/BigCraftableSpriteTilesheet: Pethouse Wall Right}}",
 		"FromFile": "assets/{{Style}}/{{Season}}_pethouse.png",
 		"FromArea": { "X": 16, "Y": 16, "Width": 16, "Height": 32 },
-		"ToArea": { "X": "{{spacechase0.Jsonassets/BigCraftableSpriteX:Pet House Wall Right}}", "Y": "{{spacechase0.Jsonassets/BigCraftableSpriteY:Pet House Wall Right}}", "Width": 16, "Height": 32 },
+		"ToArea": { 
+			"X": "{{spacechase0.Jsonassets/BigCraftableSpriteX: Pethouse Wall Right}}", 
+			"Y": "{{spacechase0.Jsonassets/BigCraftableSpriteY: Pethouse Wall Right}}", 
+			"Width": 16, 
+			"Height": 32 },
 		"When": {
 			"Enable Mod": "true"
 			}
