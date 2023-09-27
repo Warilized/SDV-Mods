@@ -15,13 +15,14 @@
 	},
 	
 	//Item Details
-	"Price": 30,
+	"Price": 25,
 	"CanPurchase": true,
 	"PurchaseFrom": "Pierre",
-	"PurchasePrice": 100,  
+	"PurchasePrice": 50,  
 	"IsColored": false,
 	
 	"Recipe": null,
+	////Made with 3 Slimes
 	
 	"GiftTastes":
 	{
