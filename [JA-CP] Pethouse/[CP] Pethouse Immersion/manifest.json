@@ -2,7 +2,7 @@
 	"Name": "[CP] Pethouse Immersion",
 	"Author": "Original: Taelende, Conversion: Warilized",
 	"Description": "Seasonal Immersion for Pethouse.",
-	"Version": "2.0.0",
+	"Version": "1.2.0",
 	"MinimumAPIVersion": "3.15.0",
 	"UniqueID": "TaelendeWarilized.PethouseImmersion",
 	"UpdateKeys": ["Nexus:7748"],
